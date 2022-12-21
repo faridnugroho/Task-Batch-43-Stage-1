@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color: #ebeaea;
+    height: 9vh;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+}
+
+li .active {
+    font-weight: bold;
+}
+
+li > img {
+    width: 100%;
+}
+
+li > a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: 500;
+}
+
+.item-nav-left{
+    flex: 50%
+}
+
+.item-nav-right{
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.item-nav-right > a {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.imgLogo{
+    width: 32px;
+    margin-right: 24px;
+}
+
+/* Card */
+.card {
+    display: flex;
+    width: 75%;
+    margin: 75px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 0px 24px #dbdbdb;
+}
+
+.card > .card-left > h2 {
+    margin: 15px 10%;
+}
+
+.card > .card-left > p {
+    margin: 0px 10%;
+    text-align: justify;
+}
+
+.card > .card-left > button {
+    background-color: black;
+    color: white;
+    margin: 40px 3% 0px 10%;
+    padding: 6px 25px;
+    border-radius: 16px;
+}
+
+.card > .card-left > a {
+    text-decoration: none;
+    color: black;
+}
+
+.card > .card-left > a > img {
+    margin-left: 4px;
+}
+
+.social-media {
+    margin: 50px 10%;
+}
+
+.social-media > img {
+    margin-right: 25px; 
+}
+
+.card-profile {
+    text-align: center;
+    border: 1px solid rgb(155, 155, 155);
+    box-shadow: 0px 2px 24px 0px black;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card-profile > img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-profile > h2 {
+    font-weight: bold;
+}
