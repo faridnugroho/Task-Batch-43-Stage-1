@@ -1,0 +1,6 @@
+Implementasikan materi Routing pada halaman Home,
+Add My Project, Detail Project & Contact Me.
+ 
+Kemudian buatlah fungsi Add My Project dengan menggunakan method POST
+untuk mendapatkan data inputan (file input image diabaikan),
+kemudian tampilkan kedalam Console
