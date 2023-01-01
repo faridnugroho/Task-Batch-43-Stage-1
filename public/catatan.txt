@@ -1,0 +1,46 @@
+// Project Task day 7
+
+	var now = time.Now()
+	now.Date()
+
+	second := time.Now().Second()
+	minute := time.Now().Minute() * 60
+	hour := time.Now().Hour() * 60 * 60
+	total := second + minute + hour
+
+	fmt.Println(reflect.TypeOf(start_date))
+	fmt.Println(start_date)
+	fmt.Println(reflect.TypeOf(now))
+	fmt.Println(now)
+	fmt.Println(reflect.TypeOf(total))
+	fmt.Println(total)
+
+
+currentTime := time.Now()
+
+fmt.Println(currentTime)
+// 2009-11-10 23:00:00 +0000 UTC m=+0.000000001
+fmt.Println(reflect.TypeOf(currentTime))
+// time.Time
+
+
+var new = currentTime.Year()
+
+fmt.Println(new)
+// 2009
+fmt.Println(reflect.TypeOf(new))
+// int
+
+
+var now = time.Now()
+
+fmt.Println(now)
+// 2009-11-10 23:00:00 +0000 UTC m=+0.000000001
+fmt.Println(reflect.TypeOf(now))
+// time.Time
+second := time.Now().Second()
+fmt.Println(now)
+// 0
+fmt.Println(reflect.TypeOf(second))
+// int
+
